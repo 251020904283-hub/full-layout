@@ -1,0 +1,781 @@
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #222;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.header {
+    height: 47px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.header-inner {
+    width: 950px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 190px;
+}
+
+.logo-name {
+    height: 27px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    line-height: 27px;
+
+    font-weight: 900;
+    letter-spacing: -2px;
+
+    color: #d9282f;
+}
+
+.logo-name span {
+    color: #294b73;
+}
+
+
+/*
+   QUAN TRỌNG:
+   nowrap giúp toàn bộ dòng nằm trên 1 hàng
+*/
+
+.logo-description {
+    width: 190px;
+
+    margin-top: -1px;
+
+    color: #777;
+
+    font-size: 7px;
+    line-height: 8px;
+
+    letter-spacing: 0;
+
+    white-space: nowrap;
+}
+
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+.navbar {
+    height: 36px;
+    background: #034d78;
+}
+
+.navbar-inner {
+    width: 950px;
+    height: 36px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.nav-home {
+    width: 48px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #08618f;
+
+    color: #fff;
+
+    font-size: 19px;
+}
+
+.nav-link {
+    height: 36px;
+
+    padding: 0 23px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+
+
+/* =====================================================
+   PAGE
+===================================================== */
+
+.page {
+    width: 950px;
+    margin: 25px auto 0;
+}
+
+
+/* =====================================================
+   TOP LAYOUT
+===================================================== */
+
+.top-layout {
+    display: grid;
+
+    grid-template-columns: 605px 265px;
+
+    gap: 25px;
+}
+
+
+/* =====================================================
+   MAIN ARTICLE
+===================================================== */
+
+.main-title {
+    margin-bottom: 9px;
+
+    color: #222;
+
+    font-size: 20px;
+    line-height: 27px;
+
+    font-weight: 700;
+}
+
+
+/* FEATURE */
+
+.feature-news {
+    width: 605px;
+    height: 196px;
+
+    display: grid;
+    grid-template-columns: 290px 315px;
+
+    background: #eef9ff;
+}
+
+.feature-description {
+    padding: 12px 12px;
+
+    color: #60727d;
+
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.feature-news img {
+    width: 315px;
+    height: 196px;
+}
+
+
+/* =====================================================
+   SMALL NEWS
+===================================================== */
+
+.small-news {
+    margin-top: 16px;
+
+    display: grid;
+
+    grid-template-columns:
+        190px
+        190px
+        190px;
+
+    gap: 17px;
+}
+
+.small-news-item img {
+    width: 190px;
+    height: 105px;
+}
+
+.small-news-item h2 {
+    margin-top: 9px;
+
+    font-size: 11px;
+    line-height: 17px;
+
+    font-weight: 700;
+}
+
+
+/* =====================================================
+   SIDEBAR
+===================================================== */
+
+.sidebar {
+    width: 265px;
+}
+
+
+/* SEARCH */
+
+.search {
+    width: 265px;
+    height: 65px;
+
+    padding: 10px;
+
+    background: #e9ecef;
+
+    border-radius: 2px;
+}
+
+.search-line {
+    width: 100%;
+
+    display: flex;
+    gap: 5px;
+}
+
+.search-line input {
+    width: 157px;
+    height: 25px;
+
+    padding: 0 8px;
+
+    border: 1px solid #d6d6d6;
+
+    outline: none;
+
+    font-size: 10px;
+}
+
+.search-line button {
+    width: 78px;
+    height: 25px;
+
+    border: none;
+
+    background: #68717e;
+
+    color: #fff;
+
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.search-type {
+    margin-top: 5px;
+
+    display: flex;
+    gap: 11px;
+
+    color: #555;
+
+    font-size: 9px;
+}
+
+.search-type label {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+
+/* =====================================================
+   EVENT BOX
+===================================================== */
+
+.event-box {
+    margin-top: 12px;
+
+    border: 1px solid #bdd6e4;
+
+    border-radius: 5px;
+
+    overflow: hidden;
+
+    background: #f8fcfe;
+}
+
+
+/* TITLE */
+
+.event-heading {
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 11px;
+
+    background: #edf8fd;
+
+    color: #4d5a62;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.event-heading span {
+    margin-right: 8px;
+
+    color: #68747b;
+
+    font-size: 17px;
+}
+
+
+/* EVENT HEADER */
+
+.event-header {
+    height: 27px;
+
+    display: grid;
+
+    grid-template-columns: 53px 1fr;
+
+    align-items: center;
+
+    background: #4a9bce;
+
+    color: #fff;
+
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.event-header strong {
+    padding-left: 7px;
+}
+
+.event-header span {
+    padding-left: 7px;
+}
+
+
+/* EVENT ROW */
+
+.event-row {
+    min-height: 56px;
+
+    display: grid;
+
+    grid-template-columns: 53px 1fr;
+
+    border-bottom: 1px solid #d8e5eb;
+}
+
+.event-row:last-child {
+    border-bottom: none;
+}
+
+.stock {
+    padding: 11px 7px;
+
+    color: #53616a;
+
+    font-size: 11px;
+}
+
+.event-content {
+    padding: 10px 7px;
+
+    color: #12639a;
+
+    font-size: 10.5px;
+    line-height: 15px;
+
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   ADVERTISEMENT
+===================================================== */
+
+.advertisement {
+    width: 950px;
+    height: 210px;
+
+    margin-top: 27px;
+
+    padding: 12px;
+
+    border: 1px solid #bfe0ed;
+
+    border-radius: 10px;
+}
+
+
+/* AD TITLE */
+
+.ad-title {
+    height: 33px;
+
+    padding: 4px 3px 8px;
+
+    border-bottom: 1px solid #d6e8ef;
+
+    color: #168c61;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+
+/* PRODUCTS */
+
+.products {
+    margin-top: 10px;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1fr
+        1fr;
+
+    gap: 20px;
+}
+
+
+/* PRODUCT */
+
+.product {
+    height: 145px;
+
+    display: grid;
+
+    grid-template-columns: 125px 1fr;
+
+    gap: 9px;
+}
+
+.product-photo {
+    width: 125px;
+    height: 140px;
+
+    position: relative;
+}
+
+.product-photo img {
+    width: 125px;
+    height: 140px;
+}
+
+
+/* SALE */
+
+.sale {
+    position: absolute;
+
+    top: -2px;
+    left: -4px;
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #ff1010;
+
+    color: #fff;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    z-index: 2;
+}
+
+
+/* PRODUCT DETAIL */
+
+.product-detail {
+    padding-top: 2px;
+}
+
+.product-name {
+    height: 50px;
+
+    color: #333;
+
+    font-size: 10.5px;
+    line-height: 16px;
+}
+
+.new-price {
+    margin-top: 3px;
+
+    color: red;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.old-price {
+    margin-top: 2px;
+
+    color: #444;
+
+    font-size: 10px;
+
+    text-decoration: line-through;
+}
+
+.product-button {
+    display: inline-block;
+
+    margin-top: 9px;
+
+    padding: 6px 13px;
+
+    border-radius: 15px;
+
+    background: #f58220;
+
+    color: #fff;
+
+    font-size: 9px;
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   BOTTOM NEWS
+===================================================== */
+
+.bottom-columns {
+    margin-top: 27px;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1fr
+        1fr;
+
+    gap: 14px;
+}
+
+
+/* COLUMN */
+
+.news-column {
+    border: 1px solid #ddd;
+
+    background: #fff;
+
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .04);
+}
+
+
+/* COLUMN TITLE */
+
+.column-title {
+    height: 42px;
+
+    padding: 12px 15px;
+
+    color: #444;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* COLUMN IMAGE */
+
+.news-column > img {
+    width: 100%;
+    height: 160px;
+}
+
+
+/* MAIN TEXT */
+
+.news-column > h2 {
+    padding: 10px 12px 7px;
+
+    color: #222;
+
+    font-size: 12px;
+    line-height: 18px;
+
+    font-weight: bold;
+}
+
+
+/* LINKS */
+
+.column-links {
+    padding: 0 12px 10px;
+}
+
+.column-links p {
+    padding: 8px 0;
+
+    border-top: 1px solid #ddd;
+
+    color: #444;
+
+    font-size: 10.5px;
+    line-height: 16px;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+    width: 100%;
+    height: 32px;
+
+    margin-top: 30px;
+
+    background: #034d78;
+}
+
+.footer::after {
+    content: "";
+
+    display: block;
+
+    position: relative;
+    top: 32px;
+
+    width: 100%;
+    height: 17px;
+
+    background: #f1f3f5;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 1000px) {
+
+    .header-inner,
+    .navbar-inner,
+    .page {
+        width: 94%;
+    }
+
+    .advertisement {
+        width: 100%;
+    }
+
+    .top-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .search,
+    .event-box {
+        width: 100%;
+    }
+
+    .feature-news {
+        width: 100%;
+    }
+
+    .small-news {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .small-news-item img {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .navbar-inner {
+        overflow: hidden;
+    }
+
+    .nav-link {
+        padding: 0 8px;
+        font-size: 9px;
+        white-space: nowrap;
+    }
+
+    .feature-news {
+        height: auto;
+
+        grid-template-columns: 1fr;
+    }
+
+    .feature-news img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .small-news {
+        grid-template-columns: 1fr;
+    }
+
+    .small-news-item img {
+        height: 180px;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .advertisement {
+        height: auto;
+    }
+
+    .bottom-columns {
+        grid-template-columns: 1fr;
+    }
+}
